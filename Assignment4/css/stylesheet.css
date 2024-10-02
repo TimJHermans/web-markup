@@ -1,0 +1,126 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > img {
+    width: 5em;
+    margin-right: 15em;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+}
+
+nav > ul > li {
+    margin-right: 1em;
+}
+
+nav > ul > li:last-child > a {
+    background-color: green;
+    color: white;
+    padding: 0.5em;
+
+} 
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+} 
+
+
+#hero {
+    background-color: #ffdf8a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0em;
+}
+
+#hero > article {
+    width: 30em;
+    margin:0em 7em;
+}
+#hero > article > h1 {
+    font-size: 2.5em;
+} 
+
+#hero > article p {
+    margin: 2em 0em 3em 0em;
+} 
+
+#hero > article > footer {
+    background-color: green;
+    color: white;
+    padding: 1em;
+}
+
+#hero > aside > img {
+    width: 30em;
+}
+
+#topics {
+    margin: 2em;
+}
+
+#topics > h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+#topics > h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+#topics > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+#topics > ul > li {
+    margin: 4em;
+}
+
+#topics > ul > li > h1 {
+    font-size: 1.2em;
+}
+
+#topics > ul > li > img {
+    width: 3em;
+}
+
+footer > ul {
+    background-color: #697077;
+    color: #b2b9c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0em;
+    list-style: none;
+}
+
+footer > ul > li > p {
+    margin-right: 20em;
+}
+
+footer a {
+    margin: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+footer img {
+    width: 5em;
+    margin-right: 22em;
+}
